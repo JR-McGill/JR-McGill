@@ -17,28 +17,24 @@ You can find my CV [here!](files/RappelVita.pdf)
 
 My Research
 ======
-{% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}[]
+[Basic Psychological Needs Are Associated With Engagement and Hate Term Use in Extremist Chatrooms](https://doi.org/10.1177/19485506251389642)
+-----
+
+Published in <i> Social Psychological and Personality Science </i>, 2025
+
+About the paper.
+
+
+[The Role of Basic Psychological Needs in Right-Wing Extremism Risk Among American Conservatives](https://doi.org/10.1080/09546553.2023.2178305)
+-----
+
+Published in <i> Terrorism and Political Violence </i>, 2024
+
+About the paper.
+
+
+
 
 <!--- Teaching
 ------
