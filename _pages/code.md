@@ -1,5 +1,5 @@
 ---
-permalink: /code/
+permalink: /
 title: "Code"
 ---
 
