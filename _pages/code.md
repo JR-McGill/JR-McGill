@@ -1,10 +1,9 @@
 ---
 permalink: /code/
 title: "Code"
-modified: 2025-04-12
 ---
 
 {% include base_path %}
 
-## Test
-This is a test
+## [files/SEM_Demonstration.r](SEM Deep Dive)
+This is an .r file containing a deep dive into the matrix algebra behind Structural Equation Modeling (SEM). 
